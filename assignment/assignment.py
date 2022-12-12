@@ -31,7 +31,7 @@ for students in Class_data:
                 print("intergers")
                 students_reverse=Reverse(students)#reversed list  is stored in the variable and used to produce a list of prime numbers
                 for student in students_reverse:#
-                    if is_prime(student)==True:#checking if each element is a prime number
+                    if is_prime(student)==True:#checking if each element is a prime number.
                         print("{} is a prime number".format(student))
                     else:
                         print("{} is not a prime number".format(student))
